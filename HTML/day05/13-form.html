@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <H1>Form</H1>
+    <form method="get" action="">
+        <!--Label'daki for ile id'nin aynı olması durumunda bu ikisi birbiri ile eşleşir ve bağlanmış olur.-->
+        <label for="username">
+            Kullanıcı adı : 
+        </label >
+        <!-- PlaceHolder değeri gölgelendirme ile kullanıcıya bilgi verilemesi sağlanır Value değeri ile ise bağlangıç değeri verilmesi sağlanır.-->
+        <input id="username" type="text" 
+        value="user">
+
+        <!--values ile buttonun üstünde yazan değer değiştilir.-->
+        <input type="submit" value="Gönder">
+
+        <input type="reset">
+
+
+    </form>
+    <!--LOGIN-->
+    <h2>Login</h2>
+    <form method="get" action="">
+        <label for="username1">username:</label>
+        <input id="username1" type="text"PlaceHolder="Kullanıcı adı">
+
+        <br>
+        <label for="email">Email: </label>
+        <input type="email">
+        <br>
+
+        <label for="password">password:</label>
+        <input id="password" type="password" placeholder="Şifre">
+        
+        
+
+        <input type="submit"value="Gönder">
+    </form>
+    <form method ="get" action="/day04/12-colspan-rowspan.html">
+        <input type="submit" value="Listele">
+    </form>
+</body>
+</html>

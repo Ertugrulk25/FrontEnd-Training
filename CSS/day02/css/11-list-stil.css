@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+ol.ordered-list{
+    list-style-type: decimal-leading-zero;
+}
+
+ul.unordered-list{
+    list-style-type: square;
+}
+
+ul.emoji-list{
+    list-style-type: "⚠️ ";
+}
+
+ul.custom-image-list{
+    list-style-image: url(../css/indir.png);
+    list-style-position: inside;
+}

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+    color: red;
+margin: 20px auto;
+}
+.img-container{
+    background-image: url(/task-03/assets/albert-einstein-teorik-fizikci-kanvas-tablosu-TH024697.jpg);
+}
+body{
+    background-image: url(/task-03/assets/albert-einstein-teorik-fizikci-kanvas-tablosu-TH024697.jpg);
+
+    background-repeat: repeat-x;
+    background-position: right; background-size: contain;
+    background-attachment: scroll;
+    height: 20vh;
+
+}

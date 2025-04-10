@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+nav.navbar{
+    background-color: orange;
+}
+
+nav.navbar ul{
+    list-style-type: none;
+    padding:0px;
+    margin: 0px;
+    text-align: center;
+}
+nav.navbar ul li.menu-item{
+    display: inline-block;
+}
+
+nav.navbar ul li.menu-item a{
+    text-decoration: none;
+    color: white;
+    padding:  5px 10px;
+    display: inline-block;
+}
+
+nav.navbar ul li.menu-item a:hover{
+    color: black;
+}
+nav.navbar ul li.menu-item:first-child::before{
+    content: "◀";
+    display: inline-block;
+}
+
+nav.navbar ul li.menu-item:last-child::after{
+    content: "▶";
+    display: inline-block;
+    color: black;
+}
+
+nav.navbar ul li.menu-item::after{
+    content: "|";
+    color: orangered;
+}

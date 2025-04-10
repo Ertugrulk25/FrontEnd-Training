@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color: red;
+}
+nav.menu{
+    
+    display: inline-block;
+    margin: 15px;
+}
+
+nav.menu button{
+    display: inline-block;
+    background-color: bisque;
+    color:blue;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+nav.menu ul{
+    list-style:"⭐" ;
+    margin-top: 5px;
+    padding: 0;
+    list-style-position: inside;
+}
+nav.menu ul {
+    margin-bottom: 5px;
+    display: none;
+}
+nav.menu:hover ul {
+    display: block;
+}
+
+nav.menu ul li a{
+    text-decoration: none;
+    color: green;
+}
+
+nav.menu ul li:hover{
+    background-color: violet;
+    color: #000000;
+    text-decoration: underline;
+  
+}

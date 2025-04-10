@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+div.linkler a:visited{
+    color: red;
+}
+div.linkler a:link{
+    color: green;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background-color: chocolate;
+    color: aqua;
+    
+}
+.btn:active{
+    background-color: bisque;
+    color: blue;
+
+}
+form div input{
+    padding: 5px 10px;
+}
+
+form div input#username:focus{
+background-color: black;
+color: white;
+}
+form div input[type="checkbox"]:checked,
+form div input[type="radio"]:checked{
+    width: 30px;
+    height: 30px;
+    
+}
+
+ul.list1 li:first-child,
+ul.list1 li:first-of-type{
+    background-color: bisque;
+    color: bisque;
+}
+
+ul.list2 li:last-child{
+    background-color: red;
+    color: black;
+}
+
+ul.list2 li:nth-child(4){
+    background-color: aqua;
+    color: blue;
+}
+
+ul.list3 li:nth-child(odd){
+    background-color: aqua;
+    color: red;
+}
+/*tek sayı odd cift sayi even*/
+table tbody tr td:nth-child(even){
+background-color: darkmagenta;
+}
+
+table tbody tr td:nth-child(odd){
+    background-color: bisque;
+}
+table tbody tr:nth-child(odd){
+    color: red;
+}
+

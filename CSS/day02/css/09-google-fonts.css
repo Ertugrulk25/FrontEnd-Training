@@ -1,0 +1,21 @@
+h1.title{
+    font-family: Doto;
+}
+/*@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Doto:wght@100..900&family=Emblema+One&family=Rock+Salt&display=swap');*/
+div{
+    font-family: Dancing Script, cursive;
+    font-optical-sizing: auto;
+    font-weight: weight=700;
+    font-style: normal;
+}
+
+p{
+    font-family: Rock Salt ,cursive;
+}
+
+/*2.yöntem*/
+
+
+span{
+   font-family: Dancing Script;
+}

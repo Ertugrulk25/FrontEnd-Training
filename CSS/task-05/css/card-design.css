@@ -1,0 +1,48 @@
+
+body{
+    border: 3px solid rgb(198, 190, 190);
+    border-top: none;
+    margin-right: 850px;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+}
+div.topic{
+
+    display: flex;
+    margin-top: 40px;
+    padding-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+    
+}
+
+div.container{
+    background-color: pink;
+    display: flex;
+    height: 15px;
+    align-items: stretch;
+}
+.line{
+   background-color: rgb(215, 97, 97);
+    height: 15px;
+    width: 150px;
+}
+.button{
+    display: flex;
+    align-items: center;
+ 
+}
+.number{
+
+    margin-left: 100px;
+    margin-top: 40px;
+
+    width: 70px;
+    
+}
+p{
+    font-size: 18px;
+    line-height: 1.3;
+}

@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    color: red;
+}
+.container{
+    background-color: grey;
+    height: 85vh;
+    margin-left: 300px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+background-color: green;
+width: 100px;
+height: 100px;
+}
+.box2{
+  background-color: rgb(222, 233, 24);  
+  width: 100px;
+  height: 100px;
+}
+.box3{
+    background-color: rgb(234, 22, 33);
+    width: 100px;
+    height: 100px;
+}
+.box4{
+    background-color: rgb(162, 30, 214);
+    width: 100px;
+    height: 100px;
+}
+.box5{
+    background-color: rgb(228, 112, 23);
+    width: 100px;
+    height: 100px;
+}

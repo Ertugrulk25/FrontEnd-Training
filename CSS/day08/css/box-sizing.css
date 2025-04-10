@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    color: red;
+}
+body{
+    background-color: #333;
+}
+div.box1{
+background-color: bisque;
+box-sizing: content-box;
+width: 500px;
+margin: 100px auto;
+padding: 50px;
+border: 15px solid green;
+text-align: center;
+font-size: 2rem;
+}
+div.box2{
+background-color: aqua;
+box-sizing: border-box;
+width: 500px;
+margin: 100px auto;
+padding: 50px;
+border: 15px solid red;
+text-align: center;
+font-size: 2rem;
+}

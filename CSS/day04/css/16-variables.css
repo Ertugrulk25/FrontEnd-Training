@@ -1,0 +1,36 @@
+:root{
+    --color1:brown;
+    --color2:burlywood;
+    --color3:darksalmon;
+    --color4:lightgoldenrodyellow;
+    --marginbottom:10px;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+    color: var(--color1);
+
+}
+.container{
+    color: burlywood;
+    margin-bottom: 20px;
+}
+.paragraph-4{
+margin-bottom: 20px;
+color: darksalmon;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color:indianred ;
+    color: lightgoldenrodyellow;
+}

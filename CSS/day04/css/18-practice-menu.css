@@ -1,0 +1,51 @@
+:root{
+
+--tertirarycolor:#1a472a;	
+--hovercolor:#2a623d;	
+--secondarycolor:#5d5d5d;	
+--primarycolor:#aaaaaa;	
+--textcolor:#000000;
+--background:#ffe4c4;
+}
+
+h1{
+    text-align: center;
+    color: var(--tertirarycolor);
+}
+body{
+    background-color: var(--background);
+}
+
+nav.menu ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0px 0px ;
+    padding: 20px;
+}
+nav.menu ul li{
+    display: inline-block;
+
+
+}
+nav.menu ul li a{
+display: inline-block;
+    background-color: var(--primarycolor);
+color: var(--textcolor);
+text-decoration: none;
+padding: 15px;
+font-weight: 600;
+width: 100px;
+text-align: center;
+margin: 5px;
+}
+nav.menu ul li.anasayfa a{
+    background-color: var(--secondarycolor);
+    color: white;
+
+}
+nav.menu ul li a:hover{
+    background-color:#2a623d;
+    color: #000000;
+    text-decoration: underline;
+    border-radius: 100px;
+}

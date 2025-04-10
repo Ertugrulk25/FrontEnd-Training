@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+p.para::first-letter{
+    font-weight: bolder;
+    font-size: 50px;
+    font-style: italic;
+    color: blue;
+}
+
+p.para::first-line{
+    color: brown;
+    font-size: 1.2rem;
+}
+
+p.para::selection{
+    background-color: aqua;
+    color: red;
+}
+
+ol li::marker{
+    color: blue;
+    font-size: 2rem;
+}
+span::before{
+    content: "♫";
+font-size: 2rem;
+}
+span::after{
+    content: "🎉";
+    background-color: aqua;
+    font-size: 2rem;
+}
+
+h1::after,h1::before{
+    content: "👑";
+    
+}

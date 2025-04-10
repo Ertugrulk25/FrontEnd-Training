@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: red;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: #333;
+    height: 80vh;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.sari{
+background-color: rgb(244, 214, 40);
+flex: 3;
+display: flex;
+flex-direction: column ;
+gap: 20px;
+padding: 25px;
+}
+.bisquite{
+
+    background-color: bisque;
+    flex: 2;
+}
+.kirmizi{
+background-color: red;
+flex: 4;
+display: flex;
+gap: 5px;
+flex-wrap: wrap;
+padding: 20px 20px 0px 20px;
+
+}
+.yesil{
+    background-color: rgb(104, 219, 104);
+    flex: 1;
+}
+.kahve{
+    background-color: rgb(119, 75, 17);
+    flex: 3;
+}
+.mavi{
+    background-color: aqua;
+    flex: 1 1 100px;
+    
+}

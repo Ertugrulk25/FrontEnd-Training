@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: red;
+    margin: 20px auto;
+}
+form{
+    position: relative;
+}
+
+form.btn-group{
+    width: 250px;
+    margin: 50px auto;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 40px;
+
+}
+
+form.btn-group input{
+    border: none;
+    outline: none;
+    background :none;
+    color: whitesmoke;
+    padding: 10 15px;
+
+}
+
+form.btn-group input::placeholder{
+    color: antiquewhite;
+}
+
+form.btn-group button{
+    background-image: linear-gradient(to left,aqua,violet);
+    padding: 10px 15px;
+    border-radius: 40px;
+    color: #333;
+    border: none;
+    position: absolute;
+    top: 1.5px;
+    right: 1.5px;
+
+}

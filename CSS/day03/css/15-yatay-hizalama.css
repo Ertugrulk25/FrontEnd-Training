@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+div.box-1{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    /*Ortaya Hizalama*/
+    margin-left:auto;
+    margin-right: auto;
+
+    /*sola hizalama*/
+    margin-left: 0;
+    margin-right: auto;
+
+    /*sağa hizalama*/
+    margin-left: auto;
+    margin-right: 0;
+
+}
+div.box-2{
+    background-color: bisque;
+    width: 300px;
+    height: 300px;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+div.box-2 span{
+    background-color: green;
+  
+    /*Ortaya Hizalama*/
+    margin-left :104px;
+    margin-right: 104px;
+}

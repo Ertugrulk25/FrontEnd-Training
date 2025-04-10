@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Types</title>
+</head>
+<body>
+    <h1>Form Types</h1>
+    
+    <form action="">
+        <!-- İSİM -->
+        <label for="isim">
+             İsim:
+        </label>
+        <input 
+        id="isim" 
+        type="text" 
+        placeholder="isminizi giriniz"
+        required
+        maxlength="25">
+        <br>
+        <!-- SOYİSİM-->
+         <label for="soyisim">
+            Soyisim:
+        </label>
+         <input 
+         id="soyisim"
+         type="text"
+         placeholder="soyisminizi giriniz"
+         required>
+<br>
+
+         <!--YAŞ-->
+         <label for="yas">
+            Yaş: 
+        </label>
+         <input 
+         id="yas" 
+         type="number" 
+         placeholder="yaşınızı giriniz" 
+         min="0"
+        max="100">
+         <br>
+         <!--Email-->
+         <label for="email">
+            Email:
+        </label>
+        <input 
+        pattern="[a-z0-9._-]+@gmail.com"
+        id="email"
+        type="email" 
+        placeholder="emailinizi giriniz"
+        name="email" 
+        required>
+        <br>
+        <!--Password-->
+        <label for="password">
+            Şifre
+        </label>
+        <input 
+        type="password" 
+        name="password"
+        id="password"
+        placeholder="şifrenizi giriniz"
+        required
+        minlength="8">
+        <br>
+        <!--Search-->
+        <label for="search">
+            Ara
+        </label>
+        <input 
+        type="search" 
+        name="search" 
+        id="search"
+        placeholder="Arama yapınız">
+        <br>
+        <!--URL-->
+        <label for="url">
+            URL
+        </label>
+        <input 
+        type="url" 
+        name="url" 
+        id="url"
+        value="https://TechproEducation"
+        placeholder="website giriniz"
+        readonly
+        >
+
+        <br>
+        <!--Tel No-->
+        <label for="tel">Tel No : </label>
+        <input 
+        type="tel" 
+        name="tel" 
+        id="tel"
+        placeholder="Tel No giriniz" 
+        required>
+        <br> 
+        <!--hidden => inputu gorunmez hale getirir-->
+        <input type="hidden" name="userId" id="">
+        <br>
+        <input 
+        type="submit" 
+        value="gönder" readonly>
+        <input type="button" value="button" disabled>
+       <input type="reset" value="temizleme">
+    </form>
+</body>
+</html>

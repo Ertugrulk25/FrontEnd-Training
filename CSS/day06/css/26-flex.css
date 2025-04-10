@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+
+    background-color: black;
+    display: flex;
+height: 50px;
+   /* default -> flex-direction:row*/
+   /* dikey -> */
+   /*ters satır ->flex-direction: row-reverse;*/
+  /* ters sutun flex-direction: column-reverse;*/
+   /* hepsini ortaya-> justify-content: center; */
+   /* sona eşitler -> justify-content: flex-end;
+   Başa eşitler -> justify content : flex-start 
+   Başa ve sona eşitleyip aralarında eşit boşluklar bırakır -> space-between
+  başta ve sonda azıcık diğerler eşit olucak sekilde boşluk bırakır->space-around
+  /* baş ve son dahil olmak üzere aralarda eşit boşluklar->justify-content: space-evenly;*/
+  align-items: stretch;
+  
+}
+
+.box{
+    background-color: green;
+  /*  height: 100px;
+    width: 100px;*/
+  
+
+}

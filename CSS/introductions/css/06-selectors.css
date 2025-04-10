@@ -1,0 +1,25 @@
+
+/*
+universal selector tüm elemanları etkileyen bir css formatı olusturmayı sağlar
+*/
+*{
+    font-size: 20px;
+    color: red;
+    background-color: cyan;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 32px;
+}
+div{
+    text-align: right;
+    color: brown;
+    font-size: 16px;
+}
+p.ortala{
+    text-align: center;
+    color: goldenrod;
+}

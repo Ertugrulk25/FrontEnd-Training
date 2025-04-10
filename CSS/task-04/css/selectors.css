@@ -1,0 +1,92 @@
+/* 1. Tüm elementleri seç */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Sayfadaki tüm h2'leri seç */
+h2 {
+    color: blue;
+}
+
+/* 3. Sayfadaki tüm section-header isimli elementleri seç */
+.section-header {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* 4. section-header içindeki h2'leri seç */
+.section-header h2 {
+    color: red;
+    font-size: 24px;
+}
+
+/* 5. Body içindeki 3. section'ı seç */
+body section:nth-of-type(3) {
+    border: 2px solid green;
+}
+
+/* 6. top-bar içindeki img'yi seç */
+.top-bar img {
+    width: 100px;
+    height: auto;
+}
+
+/* 7. top-bar içindeki nav içindeki linkleri seç */
+.top-bar nav a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+/* 8. Parent'i sosyal-medya olan linkleri seç */
+.sosyal-medya > a {
+    color: blue;
+    font-weight: bold;
+}
+
+/* 9. Parent'i section olan nav'ların içindeki li'leri seç */
+section > nav li {
+    list-style: square;
+    color: purple;
+}
+
+/* 10. top-bar'dan sonraki section'ı seç */
+.top-bar + section {
+    background-color: yellow;
+}
+
+/* 11. Parent'i kutu olan img'lerden sonraki span'ları seç */
+.kutu img + span {
+    color: red;
+    font-weight: bold;
+}
+
+/* 12. top-bar içindeki nav içindeki ilk li'den sonraki li'leri seç */
+.top-bar nav li:first-child + li {
+    background-color: lightblue;
+}
+
+/* 13. referanslar içindeki kutuların üzerine gelindiğinde img'leri seç */
+.referanslar .kutu:hover img {
+    opacity: 0.5;
+}
+
+/* 14. hizmetler içindeki parent'i kutu olan h3'lerden önce içerik ekle */
+.hizmetler .kutu h3::before {
+    content: "⭐ Özel Hizmet: ";
+    color: orange;
+}
+
+/* 15. top-bar içinde 3. li'nin üzerine geldiğinde a'dan sonraya içerik ekle */
+.top-bar nav li:nth-child(3):hover a::after {
+    content: " (Tıklayınız)";
+    font-size: 12px;
+    color: gray;
+}
+
+/* 16. top-bar içindeki ilk li'nin üzerine gelince, bu li'den sonraki li içindeki a'nın sonuna içerik ekle */
+.top-bar nav li:first-child:hover + li a::after {
+    content: " 🛒";
+    color: green;
+}

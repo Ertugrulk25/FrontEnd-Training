@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: red;
+background-color: aqua;
+}
+
+div{
+    font-size: 20px;
+    text-align: justify;
+    color: blue;
+    background-color: aqua;
+}
+ol{
+    background-color: darkblue;
+    width:50%;
+    list-style-type: square;
+    color: red;
+}
+li{
+    background-color: aqua;
+    color: rgb(255, 0, 242);
+}
+.kirmizi{
+    color: red;
+}
