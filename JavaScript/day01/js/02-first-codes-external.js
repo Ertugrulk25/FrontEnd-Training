@@ -1,0 +1,1 @@
+console.log("Bu sefer bakalım neler değişicek");

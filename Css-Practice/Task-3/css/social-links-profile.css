@@ -1,0 +1,106 @@
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+  background-color: var(--grey-900);
+}
+.total {
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 200px;
+  background-color: var(--grey-800);
+  width: 350px;
+  height: 610px;
+  border-radius: 15px;
+}
+img {
+  margin-top: 50px;
+  width: 85px;
+  border-radius: 100px;
+}
+h1 {
+  color: var(--white);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+}
+.location {
+  color: var(--green);
+  margin-top: -10px;
+  font-size: 15px;
+}
+.profession {
+  color: var(--white);
+  margin: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(184, 175, 175);
+}
+.media-1 {
+  background-color: var(--green);
+  color: var(--grey-700);
+  margin: 20px;
+  padding-bottom: 1%;
+  border-radius: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  display: flex;
+  justify-content: center; /* Yatay ortalama */
+  align-items: center; /* Dikey ortalama */
+  height: 40px; /* Kendi boyutuna göre ayarlayabilirsin */
+}
+.media-2 {
+  background-color: var(--grey-700);
+  color: var(--white);
+  margin: 20px;
+  border-radius: 10px;
+  padding-bottom: 1%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  display: flex;
+  justify-content: center; /* Yatay ortalama */
+  align-items: center; /* Dikey ortalama */
+  height: 40px; /* Kendi boyutuna göre ayarlayabilirsin */
+}
+.media-3 {
+  background-color: var(--grey-700);
+  color: var(--white);
+  margin: 20px;
+  border-radius: 10px;
+  padding-bottom: 1%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  display: flex;
+  justify-content: center; /* Yatay ortalama */
+  align-items: center; /* Dikey ortalama */
+  height: 40px; /* Kendi boyutuna göre ayarlayabilirsin */
+}
+.media-4 {
+  background-color: var(--grey-700);
+  color: var(--white);
+  margin: 20px;
+  border-radius: 10px;
+  padding-bottom: 1%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  display: flex;
+  justify-content: center; /* Yatay ortalama */
+  align-items: center; /* Dikey ortalama */
+  height: 40px; /* Kendi boyutuna göre ayarlayabilirsin */
+}
+.media-5 {
+  background-color: var(--grey-700);
+  color: var(--white);
+  margin: 20px;
+  border-radius: 10px;
+  padding-bottom: 1%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  display: flex;
+  justify-content: center; /* Yatay ortalama */
+  align-items: center; /* Dikey ortalama */
+  height: 40px; /* Kendi boyutuna göre ayarlayabilirsin */
+}

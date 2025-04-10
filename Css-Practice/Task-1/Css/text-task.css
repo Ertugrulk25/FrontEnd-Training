@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(251, 1, 5, 0.1);
+    overflow: hidden;
+    /* overflow: hidden;
+→ İçerik çerçevenin dışına taşarsa, gizlenmesini sağlar. */
+    background: #fff;
+    color: #333;
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+    -webkit-font-something:antialiased;
+    /* -webkit-font-smoothing: antialiased;
+→ Chrome/Safari gibi tarayıcılarda yazıyı daha pürüzsüz gösterir. */
+    -moz-osx-font-smoothing: grayscale;
+    /* -moz-osx-font-smoothing: grayscale;
+→ macOS tarayıcılarında yazının daha net görünmesini sağlar. */
+}
+/* 1. .frame → Ana Çerçeve (Container)
+.frame, 400x400 boyutlarında ana çerçeveyi oluşturur.
+
+Sayfanın tam ortasında konumlanır.
+İçindeki tüm içerikleri tutan ana yapı olarak görev yapar.
+Şık bir görünüm için gölge, kenar yuvarlatma gibi stiller içerir.
+Arka plan ve yazı tipi ayarları bu çerçeveye uygulanır. */
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%);
+→ Elemanın tam merkezde kalmasını sağlar.
+→ top ve left değerleri %50'ye ayarlanarak ortalanır. Ancak, elemanın genişliği ve yüksekliği hesaba katılmadığı için translate(-50%, -50%) ile tam hizalanır. */
+}

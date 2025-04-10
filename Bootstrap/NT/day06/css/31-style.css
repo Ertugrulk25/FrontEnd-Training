@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(120, 150, 207);
+}
+
+div.card{
+    width: 36rem;
+    margin: 50px auto;
+}
+
+div.card form{
+    margin: 50px 10px;
+}
+
+.card .avatar{
+    background-color: rgb(52, 93, 207);
+    color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+div.card form button,
+div.card form input{
+    padding: 10px 20px;
+}
+
+div.card-footer{
+    background: none;
+}
+
+div.card div.card-footer div.icons a{
+    border: 1px solid rgb(48, 93, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+}

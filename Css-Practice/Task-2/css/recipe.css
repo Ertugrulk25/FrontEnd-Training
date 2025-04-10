@@ -1,0 +1,152 @@
+:root{
+    
+--white: hsl(0, 0%, 100%);
+--stone-100: hsl(30, 54%, 90%);
+--stone-150: hsl(30, 18%, 87%);
+--stone-600: hsl(30, 10%, 34%);
+--stone-900: hsl(24, 5%, 18%);
+--brown-800: hsl(14, 45%, 36%);
+--rose-800: hsl(332, 51%, 32%);
+--rose-50: hsl(330, 100%, 98%);
+}
+
+body{
+    background-color:var(--stone-100) ;
+}
+img{
+    padding-top: 30px;
+    width: 500px;
+    height: 230px;
+    max-width: 100%;
+    margin: 100px auto 0 ;
+    display: block;
+    border-radius: 15px;
+   
+    
+}
+.recipe{
+ border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-size:28px;
+font-family:Georgia, 'Times New Roman', Times, serif ;}
+div{
+    width: 80%;
+    margin: auto;
+background-color: white;
+border-radius: 10px;
+
+
+}
+p{
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.6;
+}
+.preparation h2{
+    color: var(--rose-800);
+    margin-top: 10px;
+    font-size: 20px;
+}
+.preparation {
+    
+    padding: 10px 40px;
+    line-height: 1.8;
+    background-color: var(--rose-50);
+    font-size: 12px;
+    border-radius: 15px;
+    
+}
+.ingredients h2{
+     color: var(--rose-800);
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.ingredients ul li::marker {
+     color: var(--rose-800);
+    line-height: 1.8;
+    font-size: 5px;
+}
+.ingredients ul{
+    padding: 0;
+    margin: 0;
+}
+.ingredients ul li {
+    line-height: 1.8;
+    font-size: 13px;
+    padding-right: 4px;
+}
+.ingredients{
+    border: 1px solid rgb(163, 160, 160) ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 80px;
+}
+.instructions h2{
+       color: var(--rose-800);
+}
+.instructions ol li::marker{
+      color: var(--rose-800);
+}
+.instructions ol li{
+    line-height: 1.8;
+    font-size: 13px;
+}
+.instructions ol li::before {
+    font-weight: bold;
+}
+.instructions{
+    border-bottom: 1px solid gray;
+    border-top: none;
+    border-right:none;
+    border-left: none;
+
+}
+    .nutrition-table {
+            
+            
+            font-family: Arial, sans-serif;
+            border-collapse: collapse; /* Çizgilerin düzgün görünmesi için */
+            width: 100%;
+            max-width: 500px; /* 300px ile sınırlandırılıyor */
+            margin:20px 20px auto; /* Ortalamak için */
+}
+        
+        .nutrition-table th, 
+        .nutrition-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd; /* Sadece satırlar arasına çizgi ekler */
+        }
+        
+        .nutrition-table th {
+        
+            padding-right: 30px; /* Başlık ile değer arasına boşluk ekler */
+        }
+        
+        .nutrition-table td {
+        justify-content: center;
+        display: flex;
+            padding-left: 300px; /* Değer ile başlık arasına boşluk ekler */
+        }
+        
+        .nutrition-table tr:last-child td {
+            border-bottom: none; /* Son satırın altındaki çizgiyi kaldırır */
+        }
+        
+        .nutrition-title {
+            color: #2c3e50;
+            margin-left: 20px;
+        }
+        
+        .note {
+            color: #666;
+            font-style: italic;
+            margin-right: 220px;
+        }
+        td{
+            color: var(--rose-800);
+        }
